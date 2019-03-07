@@ -1,0 +1,133 @@
+.root {
+    -fx-background-color: #ffffff;
+}
+
+#view{
+    -fx-background-color: #ffffff;
+    -fx-border-color: linear-gradient(#0e6ae0, #2cdbdc);;
+    -fx-border-style: solid;
+    -fx-border-width: 1;
+}
+#photo_view{
+    -fx-background-color: #ffffff;
+    -fx-border-color: linear-gradient(#000000, #000000);
+    -fx-border-style: solid;
+    -fx-border-width: 2;
+}
+.canvas {
+    -fx-background-color: antiquewhite, white ;
+    -fx-background-insets: 0, 20 ;
+    -fx-padding: 20 ;
+}
+
+#p_title{
+    -fx-font: 25px "Times New Roman";
+    -fx-font-weight: bold;
+    -fx-text-fill: #f50404;
+}
+#caption{
+    -fx-font: 15px "Times New Roman";
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+#p_label{
+    -fx-font: 18px "Times New Roman";
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+#p_text{
+    -fx-font: 15px "Times New Roman";
+    -fx-text-fill: black;
+}
+#drag_alert{
+    -fx-font: 25px "Times New Roman";
+    -fx-text-fill: red;
+}
+#p_button{
+    -fx-font-size: 20px;
+    -fx-text-fill: #2f3031;
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight: bold;
+    -fx-border-color: linear-gradient(#2f3031, #2f3031);;
+    -fx-border-style: solid;
+    -fx-border-width: 1;
+    -fx-background-color: linear-gradient(#ffffff, #ffffff);
+}
+#p_button:hover {
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#2f3031, #2f3031);
+}
+#p_button:pressed {
+    -fx-background-color: linear-gradient(#cccccc, #666666);
+}
+#drag_path{
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+    -fx-font-family: "Times New Roman";
+}
+#p_input{
+    -fx-font-size: 16px;
+    -fx-text-fill: black;
+    -fx-font-family: "Times New Roman";
+}
+
+#tab{
+    -fx-font-size: 17px;
+    -fx-text-fill: black;
+    -fx-font-family: "Times New Roman";
+    -fx-background-color: #ffffff;
+}
+#tab:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+#check{
+    -fx-font: 15px "Times New Roman";
+    -fx-text-fill: black;
+}
+#table{
+    -fx-font: 12px "Times New Roman";
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+#file-list{
+    -fx-font: 14px "Times New Roman";
+    -fx-text-fill: black;
+}
+#sep{
+    -fx-border-color: #999999;
+}
+#drag_drop_pane{
+    -fx-border-color: #cccccc;
+}
+#tab_pane{
+    -fx-border-color: linear-gradient(#0e6ae0, #2cdbdc);;
+    -fx-border-style: solid;
+    -fx-border-width: 1;
+}
+#alert{
+    -fx-font-style: italic;
+    -fx-font-size: 2em;
+}
+#list{
+    -fx-font: 13px "Times New Roman";
+    -fx-text-fill: black;
+}
+.default-color0.chart-series-line { -fx-stroke: transparent; }
+.default-color1.chart-series-line { -fx-stroke: #070cce; }
+
+.default-color0.chart-line-symbol { 
+    -fx-background-color: white, #8a5404; 
+}
+.default-color1.chart-line-symbol { 
+    -fx-background-color: transparent, transparent; 
+}
+
+.default-color0.chart-legend-item-symbol{
+    -fx-background-color: #8a5404;
+ }
+.default-color1.chart-legend-item-symbol{
+    -fx-background-color: #070cce;
+ }
+ .predict *.chart-series-area-fill{
+    -fx-fill: red; 
+}
